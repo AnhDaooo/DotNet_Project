@@ -1,0 +1,19 @@
+﻿<Window x:Name="frm_login" x:Class="QLKS.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLKS"
+        mc:Ignorable="d"
+        Title="Login" Height="270" Width="380" Loaded="frm_login_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Background="#FFD0C0C0" MaxWidth="380" MaxHeight="270">
+    <Grid>
+        <Button x:Name="bt_login" Content="Login" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="bt_login_Click" BorderBrush="#FF5A5757"/>
+        <PasswordBox x:Name="txt_passworld" HorizontalAlignment="Left" Margin="140,110,0,0" VerticalAlignment="Top" Width="200" Height="25" VerticalContentAlignment="Center" KeyDown="txt_passworld_KeyDown"/>
+        <TextBox x:Name="txt_user" VerticalAlignment="Top" Width="200" Height="25" VerticalContentAlignment="Center" KeyDown="txt_user_KeyDown" HorizontalAlignment="Left" Margin="140,75,0,0"/>
+        <Label Content="Tên đăng nhập" HorizontalAlignment="Left" Margin="40,75,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Content="Mật khẩu" HorizontalAlignment="Left" Margin="40,110,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label x:Name="lb_thongbao" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" Width="380" HorizontalContentAlignment="Center" Height="26"/>
+        <Label Content="Welcome To Hotel Delluna" Margin="0,25,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="16" FontFamily="Sitka Small"/>
+
+    </Grid>
+</Window>
